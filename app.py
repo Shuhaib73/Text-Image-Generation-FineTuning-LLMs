@@ -27,8 +27,9 @@ app = Flask(__name__)
 huggingface_token = os.getenv('HUGGINGFACE_API_TOKEN')
 secret_key = os.getenv('SECRET_KEY')
 api_url = os.getenv('API_URL')
+app_sec = os.getenv('APP_SEC)
 
-app.config['SECRET_KEY'] = 'abcdef'
+app.config['SECRET_KEY'] = app_sec
 
 API_URL = api_url
 headers = {"Authorization": f"Bearer {huggingface_token}"}
