@@ -1,0 +1,48 @@
+
+{% extends "base.html" %}
+
+{% block title %}Main Dashboard Page{% endblock %}
+
+{% block styles %}
+    {{ super() }}
+    <link rel="stylesheet" href="{{url_for('static', filename='dashboard_main.css')}}">
+{% endblock %}
+
+{% block str_btn %}
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1 class="dashboard_title" id="dashboard_title">Models</h1>
+            <div class="cards card1">
+                <a href="{{ url_for('credit_fraud') }}">
+                    <h4>Credit Card Fraud Detection</h4><br/>
+                    <h5>The objective of this project is to develop machine learning models<br/> that can effectively identify fraudulent credit card transactions.</h5>
+                </a>
+            </div>
+            <div class="cards card2">
+                <a href="{{ url_for('text_image_page') }}">
+                    <h4>Text-to-Image Generation:</h5>
+                    <h5>Stable Diffusion XL :</h5><br> <h6>This model utilizes LoRA adaptation weights.<br> It has been fine-tuned on the Celeba dataset,<br> which comprises a diverse range of celebrity images.<br> The fine-tuning process enhances the model's<br> ability to generate high-quality images of celebrities with greater fidelity and detail. 
+                    
+                    </h6>
+                </a>
+            </div>
+            <div class="cards card3">
+                <a href="#">
+                    
+                    <p></p>
+                </a>
+            </div>
+ 
+        {% block description %}
+        {% endblock %}
+        
+    </div>
+
+
+
+{% endblock %}
+
+
+

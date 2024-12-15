@@ -1,0 +1,15 @@
+services:
+  flask-app:
+    build: .
+    ports:
+      - "5000:5000"
+    # env_file:
+    #   - .env  # This loads the environment variables from the .env file
+    environment:
+      - FLASK_APP=app.py
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
