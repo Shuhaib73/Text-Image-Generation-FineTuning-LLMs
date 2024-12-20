@@ -36,8 +36,29 @@ To enhance performance and tailor the model to specific use cases, SDXL is fine-
 <img src="./after_training_img1.png" alt="After Fine-Tuning Image 1" style="max-width: 35%; height: 220px; border: 2px solid #ccc; border-radius: 8px; display: inline-block; margin-right: 10px;">
 <img src="./after_training_img2.png" alt="After Fine-Tuning Image 2" style="max-width: 35%; height: 220px; border: 2px solid #ccc; border-radius: 8px; display: inline-block;">
 
+## 🛠️ **Technologies Used**
 
-## <br>**➲ How to use the fine-tuned model for image generation**:  
+- **Python** 🐍: The core programming language that powers the app.  
+- **Flask**: A Backend web framework for building web applications.  
+- **Stable Diffusion XL (SDXL)**: A powerful deep learning model used for generating high-quality images from textual descriptions, integrated in this project for text-to-image generation.
+- **QLORA**: A method for optimizing the performance of Stable Diffusion XL, enabling more efficient training and fine-tuning on custom datasets.
+- **Diffusers**: A library built on top of PyTorch that provides pre-trained models for generating images from text, utilized in this project to implement Stable Diffusion XL.
+- **TensorFlow**: Leveraged in this project as the primary framework for building and deploying the deep learning model for sentiment classification.
+- **Keras**: A high-level neural networks API, Used in combination with TensorFlow to simplify the construction and training of deep learning models, enabling efficient sentiment prediction.
+- **PyTorch**: A deep learning framework, employed for building and training the model on custom datasets, and used for inference in the image generation pipeline.
+- **OpenCV**: A computer vision library used for processing and manipulating images, such as resizing, transforming, and post-processing the generated images to improve quality.
+- **Docker**: Utilized in this project to create a containerized environment for the app, ensuring consistent development and deployment across different environments.
+- **Docker Container Images**: Employed to package all necessary code, libraries, and dependencies, allowing for the easy deployment and scaling of the sentiment analysis app.
+- **CI/CD (Continuous Integration/Continuous Deployment)**: Integrated into the development workflow to automatically test and deploy new changes to the app, ensuring higher quality and faster release cycles for updates.
+- **GitHub Actions**: Implemented for automating the CI/CD pipeline, allowing for seamless building, testing, and deployment of the sentiment analysis model directly from GitHub.
+- **Pandas**: A robust library for dataset management and processing.  
+- **Matplotlib/Seaborn**: Used for creating impactful visualizations that simplify data insights.  
+
+These technologies collectively make the Sentiment Analyzer app a versatile, efficient, and easy-to-use tool for professionals and researchers alike! 🚀
+
+
+
+## ✨ <br>**➲ How to use the fine-tuned model for image generation**:  
 
 ### <br>**➲ Loading Pre-trained Model and Fine-Tuned LoRA Weights** :
 
