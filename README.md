@@ -1,6 +1,5 @@
-# Fine-tuning Stable Diffusion [SDXL - QLORA] on Custom Dataset for Image Generation
+<strong style="color: rosybrown; font-size: 24px">Fine-tuning Stable Diffusion [SDXL - QLORA] on Custom Dataset for Image Generation</strong>
 
-This repository contains code and resources for fine-tuning a Stable Diffusion model on a custom dataset to generate high-quality images.
 
 ## Project Overview
 
@@ -13,10 +12,7 @@ The project focuses on training and optimizing a Stable Diffusion model for spec
 ---
 base_model: stabilityai/stable-diffusion-xl-base-1.0
 library_name: diffusers
-license: creativeml-openrail-m
 
-
-<strong style="color: rosybrown; font-size: 18px">Text-to-Image Generation with Fine-Tuned SDXL [QLoRA]</strong>
 
 <strong>Goal of this project:</strong> This project focuses on building an advanced text-to-image generation system using the Stable Diffusion XL (SDXL) model, a state-of-the-art deep learning architecture. The goal is to transform natural language text descriptions into visually coherent and high-quality images, unlocking creative possibilities in areas like art generation, design prototyping, and multimedia applications.
 
@@ -40,10 +36,10 @@ To enhance performance and tailor the model to specific use cases, SDXL is fine-
 
 <strong>Here are few examples of generated images Using Stable Diffusion SDXL:</strong>
 
-<strong>Before Fine-Tuning SDXL</strong>
+<strong>Before Fine-Tuning SDXL</strong><br>
 
-<img src="./generated_img1.png" alt="Generated Image 1" style="max-width: 35%; height: 220px; border: 2px solid #ccc; border-radius: 8px; display: inline-block; margin-right: 10px;">
-<strong>After Fine-Tuning SDXL on Custom Dataset</strong>
+<img src="./generated_img1.png" alt="Generated Image 1" style="max-width: 35%; height: 220px; border: 2px solid #ccc; border-radius: 8px; display: inline-block; margin-right: 10px;"><br>
+<strong>After Fine-Tuning SDXL on Custom Dataset</strong><br>
 <img src="./after_training_img1.png" alt="After Fine-Tuning Image 1" style="max-width: 35%; height: 220px; border: 2px solid #ccc; border-radius: 8px; display: inline-block; margin-right: 10px;">
 <img src="./after_training_img2.png" alt="After Fine-Tuning Image 2" style="max-width: 35%; height: 220px; border: 2px solid #ccc; border-radius: 8px; display: inline-block;">
 
@@ -65,15 +61,22 @@ model_path = "Shuhaib73/stablediffusion_fld"
 # Load the pre-trained Stable Diffusion XL model
 
 ```python
->>> trained_pipe = DiffusionPipeline.from_pretrained(
-    "stabilityai/stable-diffusion-xl-base-1.0", 
-    torch_dtype=torch.float16
+>> import torch
+from diffusers import DiffusionPipeline
+```
+
+```python
+>>> model_path = "Shuhaib73/stablediffusion_fld"
 )
+```
+
+```python
+>>> trained_pipe = DiffusionPipeline.from_pretrained("stabilityai/stable-diffusion-xl-base-1.0", torch_dtype=torch.float16)
 ```
 
 # Move the pipeline to GPU for faster processing
 ```python
-trained_pipe.to("cuda")
+>>> trained_pipe.to("cuda")
 ```
 
 # Load the fine-tuned LoRA weights into the pipeline
