@@ -1,4 +1,4 @@
-# Fine-tuning Stable Diffusion [SDXL - QLORA] on Custom Dataset for Image Generation
+# Fine-tuning Stable Diffusion [SDXL - QLORA] on Custom Dataset for Image Generation  🖋️ 🚀 🖼️
 
 
 ## <br>**➲ Project Overview** :
