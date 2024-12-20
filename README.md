@@ -58,7 +58,7 @@ These technologies collectively make the Sentiment Analyzer app a versatile, eff
 
 
 
-## ✨ <br>**➲ How to use the fine-tuned model for image generation**:  
+## <br>**➲ ✨  How to use the fine-tuned model for image generation ✨ **:  
 
 ### <br>**➲ Loading Pre-trained Model and Fine-Tuned LoRA Weights** :
 
