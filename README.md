@@ -37,9 +37,9 @@ To enhance performance and tailor the model to specific use cases, SDXL is fine-
 <img src="./after_training_img2.png" alt="After Fine-Tuning Image 2" style="max-width: 35%; height: 220px; border: 2px solid #ccc; border-radius: 8px; display: inline-block;">
 
 
-#### How to use the fine-tuned model for image generation
+## <br>**➲ How to use the fine-tuned model for image generation**:  
 
-## <br>**➲ Loading Pre-trained Model and Fine-Tuned LoRA Weights** :
+### <br>**➲ Loading Pre-trained Model and Fine-Tuned LoRA Weights** :
 
 This section demonstrates how to load the pre-trained Stable Diffusion XL model and the fine-tuned LoRA weights for generating high-quality images based on text prompts.
 
@@ -48,10 +48,10 @@ Ensure you have the necessary dependencies installed. You can install them via:
 import torch
 from diffusers import DiffusionPipeline
 
-## <br>**➲ Path to the directory containing fine-tuned LoRA weights** :
+### <br>**➲ Path to the directory containing fine-tuned LoRA weights** :
     -- model_path = "Shuhaib73/stablediffusion_fld"
 
-## Load the pre-trained Stable Diffusion XL model
+### Load the pre-trained Stable Diffusion XL model
 
 ```python
 >> import torch
@@ -66,7 +66,7 @@ from diffusers import DiffusionPipeline
 >>> trained_pipe = DiffusionPipeline.from_pretrained("stabilityai/stable-diffusion-xl-base-1.0", torch_dtype=torch.float16)
 ```
 
-## Move the pipeline to GPU for faster processing
+### Move the pipeline to GPU for faster processing
 ```python
 >>> trained_pipe.to("cuda")
 ```
