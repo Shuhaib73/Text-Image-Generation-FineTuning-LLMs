@@ -9,8 +9,6 @@ The project focuses on training and optimizing a Stable Diffusion model for spec
 ## Dataset
 
 -  [CelebA Dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) for face images.
-- [LSUN Dataset](https://www.yf.io/p/lsun) for scenes and objects.
-- [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) for general object recognition.
 
 ---
 base_model: stabilityai/stable-diffusion-xl-base-1.0
@@ -24,7 +22,7 @@ license: creativeml-openrail-m
 
 To enhance performance and tailor the model to specific use cases, SDXL is fine-tuned using <strong>QLoRA (Quantized Low-Rank Adaptation)</strong>. This approach leverages efficient parameter fine-tuning and memory optimization techniques, enabling high-quality adaptations with reduced computational overhead. Fine-tuning with QLoRA ensures that the model is optimized for domain-specific text-to-image tasks, delivering even more precise and creative outputs.
 
-Simplified Architecture:
+### Simplified Architecture:
 
 <img src="https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/pipeline.png" alt="Generated Image 1" style="max-width: 35%; height: 250px; border: 2px solid #ccc; border-radius: 8px; display: inline-block; margin-right: 10px;">
 
@@ -50,17 +48,6 @@ Simplified Architecture:
 <img src="./after_training_img2.png" alt="After Fine-Tuning Image 2" style="max-width: 35%; height: 220px; border: 2px solid #ccc; border-radius: 8px; display: inline-block;">
 
 
-
-<!-- ![img_0](./image_10.png)
-
-![img_2](./image_21.png)
-![img_3](./image_31.png)
-
- -->
-
-
-
-
 #### How to use
 
 ## Loading Pre-trained Model and Fine-Tuned LoRA Weights
@@ -76,16 +63,23 @@ from diffusers import DiffusionPipeline
 model_path = "Shuhaib73/stablediffusion_fld"
 
 # Load the pre-trained Stable Diffusion XL model
-trained_pipe = DiffusionPipeline.from_pretrained(
+
+```python
+>>> trained_pipe = DiffusionPipeline.from_pretrained(
     "stabilityai/stable-diffusion-xl-base-1.0", 
     torch_dtype=torch.float16
 )
+```
 
 # Move the pipeline to GPU for faster processing
+```python
 trained_pipe.to("cuda")
+```
 
 # Load the fine-tuned LoRA weights into the pipeline
+```python
 trained_pipe.load_lora_weights(model_path)
+```
 
 
 
