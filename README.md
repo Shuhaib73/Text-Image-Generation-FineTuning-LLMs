@@ -76,6 +76,11 @@ These technologies collectively make the Sentiment Analyzer app a versatile, eff
 8. **Education and Training:** Generate faces for use in training materials, such as "A teacher-like figure with glasses and a welcoming smile."
 
 
+<p align="center">
+  <img src='https://github.com/Shuhaib73/Text-Image-Generation-FineTuning-LLMs/blob/main/training_loss.png' width='500' height='250' />
+</p>
+
+
 ## <br>**➲ ✨  How to use the fine-tuned model for image generation ✨ **:  
 
 ### <br>**➲ Loading Pre-trained Model and Fine-Tuned LoRA Weights** :
