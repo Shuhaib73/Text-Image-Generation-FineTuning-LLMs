@@ -16,18 +16,7 @@ The project focuses on training and optimizing a Stable Diffusion model for spec
 base_model: stabilityai/stable-diffusion-xl-base-1.0
 library_name: diffusers
 license: creativeml-openrail-m
-tags:
-- stable-diffusion-xl
-- stable-diffusion-xl-diffusers
-- text-to-image
-- diffusers
-- diffusers-training
-- lora
-inference: true
-datasets:
-- Shuhaib73/stablediffusion_celeba1k
-pipeline_tag: text-to-image
----
+
 
 <strong style="color: rosybrown; font-size: 18px">Text-to-Image Generation with Fine-Tuned SDXL [QLoRA]</strong>
 
@@ -73,7 +62,7 @@ Simplified Architecture: ![pipeline](https://huggingface.co/stabilityai/stable-d
 
 #### How to use
 
-```python
+
 import torch
 from diffusers import DiffusionPipeline
 
@@ -83,4 +72,3 @@ trained_pipe = DiffusionPipeline.from_pretrained("stabilityai/stable-diffusion-x
 trained_pipe.to("cuda")
 trained_pipe.load_lora_weights(model_path)
 
-```
