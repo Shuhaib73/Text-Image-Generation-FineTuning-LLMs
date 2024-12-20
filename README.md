@@ -1,4 +1,4 @@
-<strong style="color: rosybrown; font-size: 24px">Fine-tuning Stable Diffusion [SDXL - QLORA] on Custom Dataset for Image Generation</strong>
+<strong style="color: rosybrown; font-size: 34px">Fine-tuning Stable Diffusion [SDXL - QLORA] on Custom Dataset for Image Generation</strong>
 
 
 ## Project Overview
