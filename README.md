@@ -55,8 +55,8 @@ Ensure you have the necessary dependencies installed. You can install them via:
 import torch
 from diffusers import DiffusionPipeline
 
-## Path to the directory containing fine-tuned LoRA weights
-model_path = "Shuhaib73/stablediffusion_fld"
+## <br>**➲ Path to the directory containing fine-tuned LoRA weights** :
+    -- model_path = "Shuhaib73/stablediffusion_fld"
 
 ## Load the pre-trained Stable Diffusion XL model
 
