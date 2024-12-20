@@ -26,7 +26,7 @@ To enhance performance and tailor the model to specific use cases, SDXL is fine-
 
 Simplified Architecture:
 
-<img src="https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/pipeline.png" alt="Generated Image 1" style="max-width: 45%; height: auto; border: 2px solid #ccc; border-radius: 8px; display: inline-block; margin-right: 10px;">
+<img src="https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/pipeline.png" alt="Generated Image 1" style="max-width: 25%; height: 150px; border: 2px solid #ccc; border-radius: 8px; display: inline-block; margin-right: 10px;">
 
 
 <strong style="text-decoration: underline">Example Prompts: </strong>
