@@ -24,7 +24,10 @@ license: creativeml-openrail-m
 
 To enhance performance and tailor the model to specific use cases, SDXL is fine-tuned using <strong>QLoRA (Quantized Low-Rank Adaptation)</strong>. This approach leverages efficient parameter fine-tuning and memory optimization techniques, enabling high-quality adaptations with reduced computational overhead. Fine-tuning with QLoRA ensures that the model is optimized for domain-specific text-to-image tasks, delivering even more precise and creative outputs.
 
-Simplified Architecture: ![pipeline](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/pipeline.png)
+Simplified Architecture:
+
+<img src="https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/pipeline.png" alt="Generated Image 1" style="max-width: 45%; height: auto; border: 2px solid #ccc; border-radius: 8px; display: inline-block; margin-right: 10px;">
+
 
 <strong style="text-decoration: underline">Example Prompts: </strong>
 <p style="color: orangered">1. A young, attractive female with arched eyebrows and a pointy nose. She has wavy brown hair, wears heavy makeup with lipstick, and exudes a confident, stylish look. The scene features soft, flattering lighting that enhances her youthful features and glamorous appearance.</p>
@@ -41,13 +44,11 @@ Simplified Architecture: ![pipeline](https://huggingface.co/stabilityai/stable-d
 
 <strong>Before Fine-Tuning SDXL</strong>
 
-![img_1](./generated_img1.png)
-
+<img src="./generated_img1.png" alt="Generated Image 1" style="max-width: 45%; height: auto; border: 2px solid #ccc; border-radius: 8px; display: inline-block; margin-right: 10px;">
 <strong>After Fine-Tuning SDXL on Custom Dataset</strong>
+<img src="./after_training_img1.png" alt="After Fine-Tuning Image 1" style="max-width: 45%; height: auto; border: 2px solid #ccc; border-radius: 8px; display: inline-block; margin-right: 10px;">
+<img src="./after_training_img2.png" alt="After Fine-Tuning Image 2" style="max-width: 45%; height: auto; border: 2px solid #ccc; border-radius: 8px; display: inline-block;">
 
-![img_1](./after_training_img1.png)
-
-![img_1](./after_training_img2.png)
 
 
 <!-- ![img_0](./image_10.png)
