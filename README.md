@@ -55,10 +55,10 @@ Ensure you have the necessary dependencies installed. You can install them via:
 import torch
 from diffusers import DiffusionPipeline
 
-# Path to the directory containing fine-tuned LoRA weights
+## Path to the directory containing fine-tuned LoRA weights
 model_path = "Shuhaib73/stablediffusion_fld"
 
-# Load the pre-trained Stable Diffusion XL model
+## Load the pre-trained Stable Diffusion XL model
 
 ```python
 >> import torch
@@ -67,22 +67,27 @@ from diffusers import DiffusionPipeline
 
 ```python
 >>> model_path = "Shuhaib73/stablediffusion_fld"
-)
 ```
 
 ```python
 >>> trained_pipe = DiffusionPipeline.from_pretrained("stabilityai/stable-diffusion-xl-base-1.0", torch_dtype=torch.float16)
 ```
 
-# Move the pipeline to GPU for faster processing
+## Move the pipeline to GPU for faster processing
 ```python
 >>> trained_pipe.to("cuda")
 ```
 
-# Load the fine-tuned LoRA weights into the pipeline
+## Load the fine-tuned LoRA weights into the pipeline
 ```python
-trained_pipe.load_lora_weights(model_path)
+>>> trained_pipe.load_lora_weights(model_path)
 ```
+
+### Generate an image 
+```python
+>>> generated_images = trained_pipe(
+    prompt = "A young woman with long, straight hair, wearing elegant earrings. Her calm expression and stylish outfit complement her natural beauty, with a softly blurred background adding a touch of depth."
+)
 
 
 
