@@ -3,7 +3,7 @@
 
 ## <br>**➲ Project Overview** :
 
-The project focuses on training and optimizing a Stable Diffusion model for specific image generation tasks using transfer learning techniques.
+❇️ The project focuses on training and optimizing a Stable Diffusion model for specific image generation tasks using transfer learning techniques.
 
 ## <br>**➲ Dataset** :
 
@@ -14,9 +14,9 @@ The project focuses on training and optimizing a Stable Diffusion model for spec
 -- library_name: diffusers
 
 
-<strong>Goal of this project:</strong> This project focuses on building an advanced text-to-image generation system using the Stable Diffusion XL (SDXL) model, a state-of-the-art deep learning architecture. The goal is to transform natural language text descriptions into visually coherent and high-quality images, unlocking creative possibilities in areas like art generation, design prototyping, and multimedia applications.
+<strong> 🎯 Goal of this project:</strong> This project focuses on building an advanced text-to-image generation system using the Stable Diffusion XL (SDXL) model, a state-of-the-art deep learning architecture. The goal is to transform natural language text descriptions into visually coherent and high-quality images, unlocking creative possibilities in areas like art generation, design prototyping, and multimedia applications.
 
-To enhance performance and tailor the model to specific use cases, SDXL is fine-tuned using <strong>QLoRA (Quantized Low-Rank Adaptation)</strong>. This approach leverages efficient parameter fine-tuning and memory optimization techniques, enabling high-quality adaptations with reduced computational overhead. Fine-tuning with QLoRA ensures that the model is optimized for domain-specific text-to-image tasks, delivering even more precise and creative outputs.
+ ❇️ To enhance performance and tailor the model to specific use cases, SDXL is fine-tuned using <strong>QLoRA (Quantized Low-Rank Adaptation)</strong>. This approach leverages efficient parameter fine-tuning and memory optimization techniques, enabling high-quality adaptations with reduced computational overhead. Fine-tuning with QLoRA ensures that the model is optimized for domain-specific text-to-image tasks, delivering even more precise and creative outputs.
 
 ## <br>**➲ Simplified Architecture** :
 
@@ -109,4 +109,15 @@ from diffusers import DiffusionPipeline
     --- To make the model accessible to a wider audience, the system is containerized using Docker, which simplifies deployment and ensures that the application runs consistently across different environments. Docker will package the model, its dependencies, and the web server into a container, allowing for easy scalability and deployment.
     --- Additionally, a Flask-based web application is developed to provide a user-friendly interface for interacting with the model. The website will allow users to input text descriptions and receive generated images in real-time. Flask will handle the routing, user interaction, and model inference, while Docker ensures the system is deployed seamlessly, enabling easy access through a web browser.
 
+---
+
+
+## 📧 **Contact**
+
+For questions, feedback, or contributions, please contact:  
+**Shuhaib**  
+**Email**: mohamed.shuhaib73@gmail.com
+**LinkedIn**: https://www.linkedin.com/in/mohamedshuhaib/
+
+---
     
