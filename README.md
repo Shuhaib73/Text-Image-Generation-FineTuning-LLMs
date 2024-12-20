@@ -10,9 +10,10 @@
 -  [CelebA Dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) for face images.
 
 ---
--- base_model: stabilityai/stable-diffusion-xl-base-1.0
--- library_name: diffusers
+--  base_model: stabilityai/stable-diffusion-xl-base-1.0
+--  library_name: diffusers
 
+### *** Note: To access the Web Application Kindly visit my portfolio website or you can contact me through LinkedIn/Mail.***
 
 <strong> 🎯 Goal of this project:</strong> This project focuses on building an advanced text-to-image generation system using the Stable Diffusion XL (SDXL) model, a state-of-the-art deep learning architecture. The goal is to transform natural language text descriptions into visually coherent and high-quality images, unlocking creative possibilities in areas like art generation, design prototyping, and multimedia applications.
 
