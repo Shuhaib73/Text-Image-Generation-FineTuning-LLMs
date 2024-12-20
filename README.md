@@ -1,11 +1,11 @@
 # Fine-tuning Stable Diffusion [SDXL - QLORA] on Custom Dataset for Image Generation
 
 
-## Project Overview
+## <br>**➲ Project Overview** :
 
 The project focuses on training and optimizing a Stable Diffusion model for specific image generation tasks using transfer learning techniques.
 
-## Dataset
+## <br>**➲ Dataset** :
 
 -  [CelebA Dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) for face images.
 
@@ -18,7 +18,7 @@ The project focuses on training and optimizing a Stable Diffusion model for spec
 
 To enhance performance and tailor the model to specific use cases, SDXL is fine-tuned using <strong>QLoRA (Quantized Low-Rank Adaptation)</strong>. This approach leverages efficient parameter fine-tuning and memory optimization techniques, enabling high-quality adaptations with reduced computational overhead. Fine-tuning with QLoRA ensures that the model is optimized for domain-specific text-to-image tasks, delivering even more precise and creative outputs.
 
-### Simplified Architecture:
+## <br>**➲ Simplified Architecture** :
 
 <img src="https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/pipeline.png" alt="Generated Image 1" style="max-width: 35%; height: 250px; border: 2px solid #ccc; border-radius: 8px; display: inline-block; margin-right: 10px;">
 
@@ -44,9 +44,9 @@ To enhance performance and tailor the model to specific use cases, SDXL is fine-
 <img src="./after_training_img2.png" alt="After Fine-Tuning Image 2" style="max-width: 35%; height: 220px; border: 2px solid #ccc; border-radius: 8px; display: inline-block;">
 
 
-#### How to use
+#### How to use the fine-tuned model for image generation
 
-## Loading Pre-trained Model and Fine-Tuned LoRA Weights
+## <br>**➲ Loading Pre-trained Model and Fine-Tuned LoRA Weights** :
 
 This section demonstrates how to load the pre-trained Stable Diffusion XL model and the fine-tuned LoRA weights for generating high-quality images based on text prompts.
 
