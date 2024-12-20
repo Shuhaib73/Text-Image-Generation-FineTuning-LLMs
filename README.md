@@ -23,9 +23,9 @@
 
 <img src="https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/pipeline.png" alt="Generated Image 1" style="max-width: 35%; height: 250px; border: 2px solid #ccc; border-radius: 8px; display: inline-block; margin-right: 10px;">
 
-## ## <br>**➲ Model Workflow Pipeline** :
+## <br>**➲ Model Workflow Pipeline** :
 
-<img src="https://github.com/Shuhaib73/Text-Image-Generation-FineTuning-LLMs/blob/main/SDXL%20Architecture_1.png" alt="Generated Image 1" style="max-width: 35%; height: 250px; border: 2px solid #ccc; border-radius: 8px; display: inline-block; margin-right: 10px;">
+<img src="https://github.com/Shuhaib73/Text-Image-Generation-FineTuning-LLMs/blob/main/SDXL%20Architecture_1.png" alt="Generated Image 1" style="max-width: 55%; height: 250px; border: 2px solid #ccc; border-radius: 8px; display: inline-block; margin-right: 10px;">
 
 ## <br>**➲ Dataset Description: CelebFaces Attributes Dataset (CelebA)** :
 
