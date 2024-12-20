@@ -88,6 +88,11 @@ from diffusers import DiffusionPipeline
 >>> generated_images = trained_pipe(
     prompt = "A young woman with long, straight hair, wearing elegant earrings. Her calm expression and stylish outfit complement her natural beauty, with a softly blurred background adding a touch of depth."
 )
+```
 
 
+## <br>**➲ Dockerizing and Building a Website using Flask:
+    --- To make the model accessible to a wider audience, the system is containerized using Docker, which simplifies deployment and ensures that the application runs consistently across different environments. Docker will package the model, its dependencies, and the web server into a container, allowing for easy scalability and deployment.
+    --- Additionally, a Flask-based web application is developed to provide a user-friendly interface for interacting with the model. The website will allow users to input text descriptions and receive generated images in real-time. Flask will handle the routing, user interaction, and model inference, while Docker ensures the system is deployed seamlessly, enabling easy access through a web browser.
 
+    
