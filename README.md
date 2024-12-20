@@ -1,4 +1,4 @@
-<p style="color: rosybrown; font-size: 34px;">Fine-tuning Stable Diffusion [SDXL - QLORA] on Custom Dataset for Image Generation</p>
+# Fine-tuning Stable Diffusion [SDXL - QLORA] on Custom Dataset for Image Generation
 
 
 ## Project Overview
@@ -10,8 +10,8 @@ The project focuses on training and optimizing a Stable Diffusion model for spec
 -  [CelebA Dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) for face images.
 
 ---
-base_model: stabilityai/stable-diffusion-xl-base-1.0
-library_name: diffusers
+-- base_model: stabilityai/stable-diffusion-xl-base-1.0
+-- library_name: diffusers
 
 
 <strong>Goal of this project:</strong> This project focuses on building an advanced text-to-image generation system using the Stable Diffusion XL (SDXL) model, a state-of-the-art deep learning architecture. The goal is to transform natural language text descriptions into visually coherent and high-quality images, unlocking creative possibilities in areas like art generation, design prototyping, and multimedia applications.
@@ -38,8 +38,8 @@ To enhance performance and tailor the model to specific use cases, SDXL is fine-
 
 <strong>Before Fine-Tuning SDXL</strong><br>
 
-<img src="./generated_img1.png" alt="Generated Image 1" style="max-width: 35%; height: 220px; border: 2px solid #ccc; border-radius: 8px; display: inline-block; margin-right: 10px;"><br>
-<strong>After Fine-Tuning SDXL on Custom Dataset</strong><br>
+<img src="./generated_img1.png" alt="Generated Image 1" style="max-width: 35%; height: 220px; border: 2px solid #ccc; border-radius: 8px; display: inline-block; margin-right: 10px;"><br><br>
+<strong>After Fine-Tuning SDXL on Custom Dataset</strong><br><br>
 <img src="./after_training_img1.png" alt="After Fine-Tuning Image 1" style="max-width: 35%; height: 220px; border: 2px solid #ccc; border-radius: 8px; display: inline-block; margin-right: 10px;">
 <img src="./after_training_img2.png" alt="After Fine-Tuning Image 2" style="max-width: 35%; height: 220px; border: 2px solid #ccc; border-radius: 8px; display: inline-block;">
 
