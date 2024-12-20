@@ -25,7 +25,7 @@
 
 ## <br>**➲ Model Workflow Pipeline** :
 
-<img src="https://github.com/Shuhaib73/Text-Image-Generation-FineTuning-LLMs/blob/main/SDXL%20Architecture_1.png" alt="Generated Image 1" style="height: 250px; width: 500px; border: 2px solid #ccc; border-radius: 8px; display: inline-block; margin-right: 10px;">
+<img src="https://github.com/Shuhaib73/Text-Image-Generation-FineTuning-LLMs/blob/main/SDXL%20Architecture_1.png" alt="Generated Image 1" style="height: 280px; width: 600px; border: 2px solid #ccc; border-radius: 8px; display: inline-block; margin-right: 10px;">
 
 ## <br>**➲ Dataset Description: CelebFaces Attributes Dataset (CelebA)** :
 
