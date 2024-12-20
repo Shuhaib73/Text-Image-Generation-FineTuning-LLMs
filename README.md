@@ -27,7 +27,7 @@ To enhance performance and tailor the model to specific use cases, SDXL is fine-
 <p style="font-family: Lucida Sans ;font-size:15px;">The CelebA dataset is a widely-used, large-scale dataset in the field of computer vision, particularly for tasks related to faces. It consists of over 200,000 celebrity face images annotated with a rich set of attributes. The dataset offers diverse visual content with variations in pose, facial expressions, and backgrounds, making it suitable for a range of face-related applications.</p>
 
 
-## <br>**➲ Here are few examples of generated images Using Stable Diffusion SDXL:
+## <br>**➲ 🌟 Here are few examples of generated images Using Stable Diffusion SDXL:
 
 <strong>Before Fine-Tuning SDXL</strong><br>
 
