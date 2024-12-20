@@ -1,4 +1,4 @@
-# Fine-tuning Stable Diffusion on Custom Dataset for Image Generation
+# Fine-tuning Stable Diffusion [SDXL - QLORA] on Custom Dataset for Image Generation
 
 This repository contains code and resources for fine-tuning a Stable Diffusion model on a custom dataset to generate high-quality images.
 
@@ -44,10 +44,10 @@ Simplified Architecture:
 
 <strong>Before Fine-Tuning SDXL</strong>
 
-<img src="./generated_img1.png" alt="Generated Image 1" style="max-width: 45%; height: auto; border: 2px solid #ccc; border-radius: 8px; display: inline-block; margin-right: 10px;">
+<img src="./generated_img1.png" alt="Generated Image 1" style="max-width: 35%; height: 220px; border: 2px solid #ccc; border-radius: 8px; display: inline-block; margin-right: 10px;">
 <strong>After Fine-Tuning SDXL on Custom Dataset</strong>
-<img src="./after_training_img1.png" alt="After Fine-Tuning Image 1" style="max-width: 45%; height: auto; border: 2px solid #ccc; border-radius: 8px; display: inline-block; margin-right: 10px;">
-<img src="./after_training_img2.png" alt="After Fine-Tuning Image 2" style="max-width: 45%; height: auto; border: 2px solid #ccc; border-radius: 8px; display: inline-block;">
+<img src="./after_training_img1.png" alt="After Fine-Tuning Image 1" style="max-width: 35%; height: 220px; border: 2px solid #ccc; border-radius: 8px; display: inline-block; margin-right: 10px;">
+<img src="./after_training_img2.png" alt="After Fine-Tuning Image 2" style="max-width: 35%; height: 220px; border: 2px solid #ccc; border-radius: 8px; display: inline-block;">
 
 
 
