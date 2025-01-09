@@ -9,6 +9,8 @@
 
 -  [CelebA Dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) for face images.
 
+-  [HuggingFace Link](https://huggingface.co/Shuhaib73/stablediffusion_fld)
+
 ---
 --  base_model: stabilityai/stable-diffusion-xl-base-1.0
 --  library_name: diffusers
