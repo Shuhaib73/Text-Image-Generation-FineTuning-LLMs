@@ -1,7 +1,7 @@
 # Fine-tuning Stable Diffusion [SDXL - QLORA] on Custom Dataset for Image Generation  🖋️ 🚀 🖼️
 
 
-## <br>**➲ Project Overview** :
+## <br>**➲ Project Overview**:
 
 ❇️ The project focuses on training and optimizing a Stable Diffusion model for specific image generation tasks using transfer learning techniques.
 
