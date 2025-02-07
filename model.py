@@ -5,7 +5,6 @@ import numpy as np
 import joblib
 
 
-
 class PipelineTester:
   def __init__(self, pipeline_path: str, test_data: pd.DataFrame):
     self.pipeline_path = pipeline_path
