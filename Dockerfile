@@ -4,6 +4,7 @@ FROM python:3.11
 #2. Set the working directory inside a container
 WORKDIR /genai_app 
 
+
 #3. Copy the req. txt to the working directory (container)
 COPY ./requirements.txt .   
 
