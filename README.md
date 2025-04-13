@@ -36,7 +36,7 @@
 
 ## <br>**➲ 🌟 Here are few examples of generated images Using Stable Diffusion SDXL:
 
-<strong>Before Fine-Tuning SDXL</strong><br>
+<strong>Before Fine-Tuning SDXL:</strong><br>
 
 <img src="./generated_img1.png" alt="Generated Image 1" style="max-width: 35%; height: 220px; border: 2px solid #ccc; border-radius: 8px; display: inline-block; margin-right: 10px;"><br><br>
 <strong>After Fine-Tuning SDXL on Custom Dataset</strong><br><br>
